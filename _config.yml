@@ -1,0 +1,69 @@
+title:            Science VS. Romance
+tagline:          Hello...
+description:      Personal blog of jason lyu.
+# Your site's domain goes here. Leave localhost server or blank when working locally.
+url:              http://jasonlv.cn/
+
+# Owner/author information
+owner:
+  name:           Jason Lyu
+  avatar:         bio-photo.jpg
+  bio:            "Student in Harbin Institute of Technology. Grade 2, Software Engineering."
+  email:          jasonlvhitl@gmail.com
+  # Social networking links are used in author-bio sidebar. Update and remove as you like.
+  # To register at HMFAYSAL SOCIAL, visit http://social.hmfaysal.tk
+  douban:        jasonlvpy
+  weibo:          jasonlvpy
+  github:         jasonlvhit
+  linkedin:       
+  instagram:      
+  lastfm:         
+  tumblr:         
+  # For Google Authorship https://plus.google.com/authorship
+  google_plus:    
+
+# Analytics and webmaster tools stuff goes here
+google_analytics:   UA-47260641-1
+google_verify:      
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:        
+
+# Links to include in top navigation
+# For external links add external: true
+links:
+  - title: Home
+    url: 
+  - title: Articles
+    url: articles/
+  - title: Tags
+    url: /tags/
+  - title: Github Gist
+    url: "https://gist.github.com/jasonlvhit"
+    external: true
+  - title: About
+    url: about/
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:    Asia/Harbin
+future:      true
+pygments:    true
+markdown:    kramdown
+
+# https://github.com/mojombo/jekyll/wiki/Permalinks
+permalink:   /:categories/:title
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  use_coderay: false
+
+  coderay:
+    coderay_line_numbers: 
+    coderay_line_numbers_start: 1
+    coderay_tab_width: 4
+    coderay_bold_every: 10
+    coderay_css: class
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
