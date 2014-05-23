@@ -19,7 +19,7 @@ PageRank的算法思想很简单，利用互联网网页之间的相互关系，
 <br>
 所以我们也可以很轻松的理解PageRank算法中给我们的这个数理化计算公式： 
 <figure>
-    <a href="http://jasonlv.cn/images/pagerank.jpg"><img src="http://jasonlv.cn/images/pagerank.jpg"></a>
+    <a href="http://jasonlvhit.github.io/images/pagerank.jpg"><img src="http://jasonlvhit.github.io/images/pagerank.jpg"></a>
     <figcaption>PageRank</figcaption>
 </figure>  
 <br> 
@@ -29,19 +29,19 @@ L(v)代表v网页的总链接数，也就是总出度。为什么做这样的处
 <br>
 z在这里，d是阻尼系数，d必须是小于1的。这个公式的含义是，一个用户会有d的概率跳转到别的页面，有1-d的概率停滞在当前页面。d的值经过统计，大约为0.85。所以这里我们就得到我们最终使用的PR值计算公式。  
 <figure>
-    <a href="http://jasonlv.cn/images/damp.jpg"><img src="http://jasonlv.cn/images/damp.jpg"></a>
+    <a href="http://jasonlvhit.github.io/images/damp.jpg"><img src="http://jasonlvhit.github.io/images/damp.jpg"></a>
     <figcaption>PageRank</figcaption>
 </figure>  
 <br>
 这里我引用Programming Collective Intelligence 第4章的例子，计算PR(A):  
 <figure>
-    <a href="http://jasonlv.cn/images/PRA.jpg"><img src="http://jasonlv.cn/images/PRA.jpg"></a>
+    <a href="http://jasonlvhit.github.io/images/PRA.jpg"><img src="http://jasonlvhit.github.io/images/PRA.jpg"></a>
     <figcaption></figcaption>
 </figure>  
 <br>
 我们设定d为0.85，用上面的公式有：  
 <figure>
-    <a href="http://jasonlv.cn/images/CPRA.jpg"><img src="http://jasonlv.cn/images/CPRA.jpg"></a>
+    <a href="http://jasonlvhit.github.io/images/CPRA.jpg"><img src="http://jasonlvhit.github.io/images/CPRA.jpg"></a>
     <figcaption></figcaption>
 </figure>  
 <br>
@@ -302,14 +302,14 @@ __global__ void PRAdd(float *PR, const float* Graph,
 如我们所想，CUDA的确可以获得更好的性能表现，在保证结果正确的情况下，CUDA可以给我们如下的实验结果：
 
 <figure>
-    <a href="http://jasonlv.cn/images/500.JPG"><img src="http://jasonlv.cn/images/500.JPG"></a>
+    <a href="http://jasonlvhit.github.io/images/500.JPG"><img src="http://jasonlvhit.github.io/images/500.JPG"></a>
     <figcaption>500 * 500 matrix</figcaption>
 </figure>  
 <br>
 
 我们可以得到这样的统计数据：
 <figure>
-    <a href="http://jasonlv.cn/images/77.jpg"><img src="http://jasonlv.cn/images/77.jpg"></a>
+    <a href="http://jasonlvhit.github.io/images/77.jpg"><img src="http://jasonlvhit.github.io/images/77.jpg"></a>
     <figcaption></figcaption>
 </figure>  
 <br>

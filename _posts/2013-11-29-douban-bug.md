@@ -14,7 +14,7 @@ tags: [life, 豆瓣, 产品]
 ---
 OK,说说那个小bug,其实很简单，一张图就可以说明了：
 <figure>
-	<a href="http://jasonlv.cn/images/bug.png"><img src="http://jasonlv.cn/images/bug.png"></a>
+	<a href="http://jasonlvhit.github.io/images/bug.png"><img src="http://jasonlvhit.github.io/images/bug.png"></a>
 	<figcaption></figcaption>
 </figure>  
 <br>
@@ -23,7 +23,7 @@ OK,说说那个小bug,其实很简单，一张图就可以说明了：
 
 那天无聊，于是想看看豆瓣怎么回馈我这个小用户的bug请求，于是就提交了这个bug。没想到豆瓣迅速的回复了我：
 <figure>
-	<a href="http://jasonlv.cn/images/rebug.png"><img src="http://jasonlv.cn/images/rebug.png"></a>
+	<a href="http://jasonlvhit.github.io/images/rebug.png"><img src="http://jasonlvhit.github.io/images/rebug.png"></a>
 	<figcaption></figcaption>
 </figure>  
 <br>

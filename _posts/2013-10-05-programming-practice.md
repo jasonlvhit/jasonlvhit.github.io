@@ -24,17 +24,17 @@ OK，介绍下我们的团队成员：
 <br>
 MFC技术不是特别的难，实验要求也不是特别复杂，所以其实我们在合作下，没用多少时间，就做出了下面这个，现在点开还会激动的程序。
 <figure>
-	<a href="http://jasonlv.cn/images/library.jpg"><img src="http://jasonlv.cn/images/library.jpg"></a>
+	<a href="http://jasonlvhit.github.io/images/library.jpg"><img src="http://jasonlvhit.github.io/images/library.jpg"></a>
 	<figcaption></figcaption>
 </figure>
 <br>
 <figure>
-	<a href="http://jasonlv.cn/images/register.jpg"><img src="http://jasonlv.cn/images/register.jpg"></a>
+	<a href="http://jasonlvhit.github.io/images/register.jpg"><img src="http://jasonlvhit.github.io/images/register.jpg"></a>
 	<figcaption></figcaption>
 </figure>  
 <br>
 <figure>
-	<a href="http://jasonlv.cn/images/bookmana.jpg"><img src="http://jasonlv.cn/images/bookmana.jpg"></a>
+	<a href="http://jasonlvhit.github.io/images/bookmana.jpg"><img src="http://jasonlvhit.github.io/images/bookmana.jpg"></a>
 	<figcaption></figcaption>
 </figure>  
 <br>

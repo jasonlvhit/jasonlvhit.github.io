@@ -64,7 +64,7 @@ def visit(proxy, url):
     return (end - start).total_seconds()
 
 def runtest():
-    test_url = 'http://jasonlv.cn'
+    test_url = 'http://jasonlvhit.github.io'
 
     print'fetch proxy servers...'
     proxy_list = fetch_proxy()
