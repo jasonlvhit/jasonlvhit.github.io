@@ -7,12 +7,12 @@ tags: [Python]
 ---
 
 
-参考Stackoverflow中的一个[问答](http://stackoverflow.com/questions/111234/what-is-a-callable-in-python)
+参考Stackoverflow中的一个[问答](https://stackoverflow.com/questions/111234/what-is-a-callable-in-python)
   <br>  
 我们可以使用quit()和exit()退出python shell，想一想在我们敲击这两个函数的背后到底发生了什么。你可能会认为quit()和exit()都是用函数实现的，其实不是这样的，他们都是使用了同一个Quitter类作为实现：
 
 
-[site.py](http://svn.python.org/projects/python/trunk/Lib/site.py)
+[site.py](https://svn.python.org/projects/python/trunk/Lib/site.py)
 {% highlight py %}
 	class Quitter(object):
 	    def __init__(self, name):
@@ -76,7 +76,7 @@ Python 3.3
 <br>
 最后，让我们再来看一下C Python中check一个对象是否是callable的函数：
 
-[object.c](http://svn.python.org/view/python/trunk/Objects/object.c?view=markup&pathrev=64962)
+[object.c](https://svn.python.org/view/python/trunk/Objects/object.c?view=markup&pathrev=64962)
 {% highlight cpp %}
 	/* Test whether an object can be called */
 
